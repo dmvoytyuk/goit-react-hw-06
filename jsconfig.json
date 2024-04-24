@@ -1,6 +1,10 @@
 {
 	"compilerOptions": {
 		"jsx": "react-jsx",
-		"checkJs": true
+		"baseUrl": ".",
+		"checkJs": true,
+		// "noStrictGenericChecks": false,
+		"resolveJsonModule": true
+		// "allowJs": true
 	}
 }
